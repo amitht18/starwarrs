@@ -12,7 +12,7 @@ function ListPage(props: ListPageProps) {
 
   return (
     <div className="list-page">
-      <h2>StarWarriors</h2>
+      <h2>Star Warriors</h2>
       <div className="character-cards">
         {characters.map((character) => {
           return <Card key={character.name} character={character} />
