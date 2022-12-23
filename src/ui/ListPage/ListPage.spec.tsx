@@ -31,8 +31,8 @@ const MOCK_CHARACTER_DATA: Character[] =
         "https://swapi.dev/api/starships/12/",
         "https://swapi.dev/api/starships/22/"
       ],
-      "created": "2014-12-09T13:50:51.644000Z",
-      "edited": "2014-12-20T21:17:56.891000Z",
+      "created": new Date("2014-12-09T13:50:51.644000Z"),
+      "edited": new Date("2014-12-20T21:17:56.891000Z"),
       "url": "https://swapi.dev/api/people/1/"
     },
     {
@@ -58,8 +58,8 @@ const MOCK_CHARACTER_DATA: Character[] =
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-10T15:10:51.357000Z",
-      "edited": "2014-12-20T21:17:50.309000Z",
+      "created": new Date("2014-12-10T15:10:51.357000Z"),
+      "edited": new Date("2014-12-20T21:17:50.309000Z"),
       "url": "https://swapi.dev/api/people/2/"
     }
   ]
