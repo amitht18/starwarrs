@@ -24,7 +24,7 @@ function Card(props: CardProps) {
     }, [character.homeworld])
 
     return (
-        <div className="card" onClick={goToDetail}>
+        <div className="card" data-testid={'card'} onClick={goToDetail}>
             <div className="card-header">
                 <h3>{character.name}</h3></div>
             <div className="card-body">
