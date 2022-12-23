@@ -31,8 +31,8 @@ function Card(props: CardProps) {
                 <div className="card-details">
                     <p><span className="label">Eye color:</span> {character.eye_color}</p>
                     <p><span className="label">Hair Color:</span> {character.hair_color}</p>
-                    <p><span className="label"></span>Gender: {character.gender}</p>
-                    <p><span className="label"></span>Home Planet: {planet ? planet : 'Loading..'}</p>
+                    <p><span className="label">Gender:</span> {character.gender}</p>
+                    <p><span className="label">Home Planet:</span> {planet ? planet : 'Loading..'}</p>
                 </div>
             </div>
             <div className="card-footer">

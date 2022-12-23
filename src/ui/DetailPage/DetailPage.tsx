@@ -25,9 +25,9 @@ function DetailPage() {
 
         <p><span className="label">Eye color:</span> {character.eye_color}</p>
         <p><span className="label">Hair Color:</span> {character.hair_color}</p>
-        <p><span className="label"></span>Gender: {character.gender}</p>
-        <p><span className="label"></span>Height:  <button className="height-button" onClick={() => {updateHeight(Number(height) -1)}}>-</button>{height}<button className="height-button" onClick={() => {updateHeight(Number(height) +1)}}>+</button></p>
-        <p><span className="label"></span>Home Planet: {character.homeworld}</p>
+        <p><span className="label">Gender:</span>{character.gender}</p>
+        <p><span className="label">Height:</span><button className="height-button" onClick={() => {updateHeight(Number(height) -1)}}>-</button>{height}<button className="height-button" onClick={() => {updateHeight(Number(height) +1)}}>+</button></p>
+        <p><span className="label">Home Planet:</span>{character.homeworld}</p>
 
         <div className="movies-featured"><span className="label">Movies Featured in:</span>
           {moviesNames.length > 0 ?
