@@ -14,9 +14,13 @@ function ListPage(props: ListPageProps) {
     <div className="list-page">
       <h2>Star Warriors</h2>
       <div className="character-cards">
-        {characters.map((character) => {
+        {characters.length > 0 ?
+        characters.map((character) => {
           return <Card key={character.name} character={character} />
-        })}
+        })
+        :
+        <div className="loading">Loading characters...</div>
+      }
       </div>
     </div>
   )
