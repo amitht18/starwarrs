@@ -1,0 +1,25 @@
+.movies-featured {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border: 1px solid #999;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.character-details {
+  padding: 1.5em 8em;
+  background: #f8f8f8;
+}
+
+.height-button {
+  border: 1px solid #555;
+  padding: 8px 10px;
+  border-radius: 40px;
+  line-height: 1em;
+  width: 34px;
+  text-align: center;
+  background-color: #e9f9ff;
+  margin: 0 5px;
+}
