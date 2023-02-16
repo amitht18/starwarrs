@@ -1,5 +1,5 @@
-import axios from "axios";
-import { Character } from "../state/state.types";
+import axios from 'axios';
+import { Character } from '../state/state.types';
 
 export const DATA_URL = 'https://swapi.dev/api/people/?page=1';
 
@@ -16,11 +16,11 @@ export async function getName(address: string) {
 }
 
 export async function getAllMovieNames(urls: string[]) {
-    let results = []
-    for(const i in urls){
+    let results = [];
+    for (const i in urls) {
         const data = await GET(urls[i]);
         results.push(data.data.title);
-    };
+    }
 
     return results;
 }
