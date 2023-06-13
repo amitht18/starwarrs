@@ -37,4 +37,5 @@ jobs:
               with:
                   name: build
             - run: |
+                  ls
                   aws s3 sync dist/ s3://${{secrets.AWS_S3_BUCKET_NAME}} --delete
